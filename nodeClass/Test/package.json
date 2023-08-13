@@ -1,0 +1,19 @@
+{
+  "name": "nodeclass",
+  "version": "1.0.0",
+  "main": "node server.js",
+  "scripts": {
+    "dev": " nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3"
+  },
+  "description": ""
+}
